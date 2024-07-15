@@ -34,7 +34,7 @@ require("lazy").setup({
   checker = { enabled = true }, -- automatically check for plugin updates
   ui = {
     backdrop = 100,
-    border = "rounded",
+    -- border = "rounded",
     icons = { lazy = "(H) ", keys = "󰥻" },
     title = "  󱎦  󰫮  󰬇  󰬆  ",
   },
