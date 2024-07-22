@@ -18,6 +18,7 @@ require("lazy").setup({
     spec = {
         -- add LazyVim and import its plugins
         { "aimuzov/LazyVimx", import = "lazyvimx.core" },
+        { import = "lazyvimx.colorschemes.catppuccin" },
         -- import/override with your plugins
         { import = "plugins" },
     },
@@ -30,7 +31,7 @@ require("lazy").setup({
         version = false, -- always use the latest git commit
         -- version = "*", -- try installing the latest stable version for plugins that support semver
     },
-    install = { colorscheme = { "tokyonight", "habamax", "oxocarbon" } },
+    install = { colorscheme = { "tokyonight", "catppuccin", "oxocarbon" } },
     checker = { enabled = true }, -- automatically check for plugin updates
     ui = {
         backdrop = 100,

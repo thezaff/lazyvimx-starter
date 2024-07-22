@@ -61,6 +61,7 @@
     "lazyvimx.extras.git.conflicts",
     "lazyvimx.extras.git.fugitive.base",
     "lazyvimx.extras.git.fugitive.providers.github",
+    "lazyvimx.extras.git.fugitive.providers.gitlab",
     "lazyvimx.extras.git.remote-view",
     "lazyvimx.extras.hacks.conform-stylelint-custom-syntax-for-svelte",
     "lazyvimx.extras.hacks.context-menu-clear",
@@ -92,7 +93,6 @@
     "lazyvimx.extras.keys.nav.go-to-context",
     "lazyvimx.extras.keys.register.d-blackholed",
     "lazyvimx.extras.keys.tab.rename",
-    "lazyvimx.extras.keys.terminal.go-to-file-under-cursor",
     "lazyvimx.extras.keys.terminal.open-cwd",
     "lazyvimx.extras.keys.window.open-dashboard",
     "lazyvimx.extras.keys.window.open-zen-mode",
@@ -160,7 +160,7 @@
     "lazyvimx.extras.ui.style.windows.bolder-separators"
   ],
   "news": {
-    "NEWS.md": "6077",
+    "NEWS.md": "6296",
     "doc/news.txt": "24447"
   },
   "version": 6
